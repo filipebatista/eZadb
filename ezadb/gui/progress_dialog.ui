@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+    <object class="pygubu.builder.widgets.dialog" id="progressdialog">
+        <property name="height">100</property>
+        <property name="modal">True</property>
+        <property name="padx">4</property>
+        <property name="overrideredirect">1</property>
+        <property name="pady">4</property>
+        <property name="resizable">none</property>
+        <property name="title" translatable="yes">Wait</property>
+        <property name="width">200</property>
+        <child>
+            <object class="ttk.Label" id="Label_2">
+                <property name="justify">center</property>
+                <property name="text" translatable="yes">Loading...Please wait ...</property>
+                <layout>
+                    <property name="column">0</property>
+                    <property name="propagate">True</property>
+                    <property name="row">0</property>
+                </layout>
+            </object>
+        </child>
+        <child>
+            <object class="ttk.Progressbar" id="progressbar1">
+                <property name="maximum">10</property>
+                <property name="mode">indeterminate</property>
+                <property name="orient">horizontal</property>
+                <layout>
+                    <property name="column">0</property>
+                    <property name="propagate">True</property>
+                    <property name="row">1</property>
+                    <property name="sticky">ew</property>
+                </layout>
+            </object>
+        </child>
+    </object>
+</interface>
