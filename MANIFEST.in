@@ -1,0 +1,4 @@
+include docs/README.md
+recursive-include ezadb/gui *
+recursive-include ezadb/locale *
+recursive-include ezadb/images *
