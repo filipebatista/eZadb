@@ -1,20 +1,7 @@
-import os
 from os import path
 from setuptools import setup, find_packages
-from ezadb import __version__
 from ezadb import __AUTHOR__
-
-
-def read(fname):
-    import pypandoc
-    try:
-        here = path.abspath(path.dirname(__file__))
-        desc= pypandoc.convert(path.join(here, fname), 'rst')
-        return desc
-    except (IOError, ImportError):
-        return 'eZadb is a python application that aims to provide the Android Debug Bridge (adb) funcionalities ' \
-               'in more simple and intuitive way.'
-
+from ezadb import __version__
 
 setup(
     name='eZadb',
@@ -26,7 +13,7 @@ setup(
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Programming Language :: Python'
     ],
-    long_description=read('docs/README.md'),
+    long_description=open(path.join(path.abspath(path.dirname(__file__)),'docs/README.rst')).read(),
     keywords='android adb android-debug-bridge development',
     url='https://filipebatista.github.io/eZadb',
     author='{user1}'.format(user1=__AUTHOR__[0]['Name']),
