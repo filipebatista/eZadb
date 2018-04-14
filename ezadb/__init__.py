@@ -1,4 +1,4 @@
-__version__ = '1.0.0b'
+__version__ = '1.1.0'
 __AUTHOR__ = [
     {'Name': 'Filipe Baptista', 'Email': 'filipe.batista@outlook.com'}
 ]
