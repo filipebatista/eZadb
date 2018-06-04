@@ -21,10 +21,16 @@ To install go to the command line and type:
 **Command Line Tool**
 ---------------------
 
-.. figure:: https://filipebatista.github.io/eZadb/imgs/command_line_thumb.png
-   :alt: command line
+|command line| See the
+`wiki <https://github.com/filipebatista/eZadb/wiki/Command-Line>`__ page
+for more information
 
-   command line
+**Gui Interface**
+-----------------
+
+|gui interface| See the
+`wiki <https://github.com/filipebatista/eZadb/wiki/Graphical-mode>`__
+page for more information
 
 Contributing
 ------------
@@ -59,3 +65,7 @@ See the
 `LICENSE <https://github.com/filipebatista/eZadb/blob/master/LICENSE>`__
 file that accompanies this distribution for the full text of the
 license.
+
+.. |command line| image:: https://filipebatista.github.io/eZadb/imgs/command_line_thumb.png
+.. |gui interface| image:: https://filipebatista.github.io/eZadb/imgs/gui_main_thumb.png
+
