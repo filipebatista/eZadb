@@ -12,11 +12,13 @@ To install go to the command line and type:
 ```
 ## **Command Line Tool**
 ![command line](https://filipebatista.github.io/eZadb/imgs/command_line_thumb.png)
+
 See the [wiki](https://github.com/filipebatista/eZadb/wiki/Command-Line) page for more information
 
 ## **Gui Interface**
 ![gui interface](https://filipebatista.github.io/eZadb/imgs/gui_main_thumb.png)
 See the [wiki](https://github.com/filipebatista/eZadb/wiki/Graphical-mode) page for more information
+
 
 
 ## Contributing
