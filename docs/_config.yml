@@ -1,4 +1,5 @@
 theme: jekyll-theme-architect
+show_downloads: true
 kramdown:
   syntax_highlighter_opts:
     disable : false
