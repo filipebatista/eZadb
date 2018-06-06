@@ -1,5 +1,7 @@
 theme: jekyll-theme-architect
 show_downloads: true
+wiki_url: https://github.com/filipebatista/eZadb/wiki
+
 kramdown:
   syntax_highlighter_opts:
     disable : false
