@@ -17,6 +17,7 @@ See the [wiki](https://github.com/filipebatista/eZadb/wiki/Command-Line) page fo
 
 ## **Gui Interface**
 ![gui interface](https://filipebatista.github.io/eZadb/imgs/gui_main_thumb.png)
+
 See the [wiki](https://github.com/filipebatista/eZadb/wiki/Graphical-mode) page for more information
 
 
