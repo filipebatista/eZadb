@@ -1,4 +1,10 @@
 # **eZadb**
+
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/filipebatista/eZadb.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/filipebatista/eZadb/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/filipebatista/eZadb.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/filipebatista/eZadb/context:python)
+
+
+
 *eZadb* is a python application that aims to provide the **Android Debug Bridge** (adb) funcionalities in more simple and intuitive way.
 
 ezadb has two modes:
