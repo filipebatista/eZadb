@@ -25,7 +25,7 @@ setup(
         'configparser==3.5.0',
         'pygubu==0.9.8.1',
         'enum34==1.1.6',
-        'pillow==8.1.1',
+        'pillow==8.2.0',
         'future'
     ],
     entry_points={
